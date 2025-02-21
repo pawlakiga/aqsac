@@ -54,9 +54,6 @@ For training delay-safe and augmented agents a `train_default_augmented_agent` f
 - `random_delay : bool = True` - whether to randomise delay for training. Should be true for all safe agents, and false if training the standard augmented SAC for one value of delay. If `True` and `agent_type = 'augsac'` then the agent is saved with as `'drsac'` 
 - `init_delay : int = None` - initial delay
 
-
-**Example loops for training both the non-delayed and safe agents are given in `train-agents.ipynb`. The file also contains code for drawing the training plots using `logs`.**
-
 ### Testing
 For testing it's always best to use the `test_agent` function from `test_utils.py` with the arguments :
 - `deterministic` - applies to SAC, whether to run it deterministically
