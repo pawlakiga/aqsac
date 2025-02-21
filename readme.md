@@ -1,11 +1,11 @@
 # Hybrid Reinforcement Learning for Continuous-Time Industrial Systems with Time-Varying Delays
-**Authors**
-Iga Pawlak `iga.pawlak@se.abb.com`
-Soroush Rastegarpour `soroush.rastegarpour@se.abb.com`
+**Authors**<br>
+Iga Pawlak `iga.pawlak@se.abb.com`<br>
+Soroush Rastegarpour `soroush.rastegarpour@se.abb.com`<br>
 Hamid Feyzmahdavian `hamid.feyzmahdavian@se.abb.com`
 
 
-The package contains files developed in the scope of the master thesis addressing the problem of delays, particularly unknown continuous and variable ones, in Reinforcement Learning. 
+The package contains files developed in the scope of the master thesis addressing the problem of delays, particularly unknown continuous and variable ones, in Reinforcement Learning for Industrial Systems. 
 
 ## File structure
 - `buffer.py`  - definition of an extended replay buffer used in by safe agents
